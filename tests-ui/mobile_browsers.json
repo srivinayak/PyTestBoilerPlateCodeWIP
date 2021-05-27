@@ -1,0 +1,70 @@
+[
+
+    {
+        "os_version" : "11",
+        "device" : "iPhone 8 Plus",
+        "real_mobile" : "true",
+        "browserstack.local" : "false",
+        "deviceOrientation" : "landscape"
+    },
+    {
+        "os_version" : "14",
+        "device" : "iPad Air 4",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+    {
+        "os_version" : "13",
+        "device" : "iPhone XS",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+    {
+        "os_version" : "14",
+        "device" : "iPhone 12 Mini",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+    {
+        "os_version" : "13",
+        "device" : "iPhone 8",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+    {
+        "os_version" : "13",
+        "device" : "iPad 7th",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+     {
+        "os_version" : "11.0",
+        "device" : "Samsung Galaxy S20",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+    {
+        "os_version" : "11.0",
+        "device" : "Google Pixel 5",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+    {
+        "os_version" : "5.0",
+        "device" : "Google Nexus 6",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+    {
+        "os_version" : "9.0",
+        "device" : "Motorola Moto G7 Play",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+    {
+        "os_version" : "9.0",
+        "device" : "OnePlus 7",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    }
+]

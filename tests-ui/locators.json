@@ -1,0 +1,151 @@
+{
+    "login page": {
+        "email textbox": "//input[ @id='email' ]",
+        "password textbox": "//input[ @id='password' ]",
+        "submit button": "//button[ text()='Continue' ]",
+        "help message": {
+            "english": "//div[ text()='some english text' ]",
+            "spanish": "//div[ text()='some spanish text' ]",
+            "russian": "//div[ text()='some russian text' ]"
+        }
+    },
+    "sample site": {
+        "page heading": "//h1",
+        "header nav": {
+            "home link": "//*[@id='block-system-main-menu']//ul//a[ text()='Home' ]",
+            "megs link": "//*[@id='block-system-main-menu']//ul//a[ text()='MEGS' ]"
+        },
+        "footer nav": {
+            "megs link": "//*[@id='block-menu-menu-footer-menu']//ul//a[ text()='MEGS' ]",
+            "t and c": "//*[@id='block-menu-menu-footer-menu']//ul//a[ text()='Terms & Conditions' ]",
+            "pfizer site": "//*[@id='block-menu-menu-footer-menu']//ul//a[ text()='Pfizer website' ]",
+            "bristol m squibb": "//*[@id='block-menu-menu-footer-menu']//ul//a[ text()=' Bristol-Myers Squibb website' ]",
+            "privacy policy": "//*[@id='block-menu-menu-footer-menu']//ul//a[ text()='Privacy Policy' ]",
+            "cookie policy": "//*[@id='block-menu-menu-footer-menu']//ul//a[ text()='Cookie Policy' ]"
+        },
+        "home page": {
+            "tell me more button": "//div[ contains( concat(' ', normalize-space(@class), ' '), ' bp-link-btn ' ) ]//a[ text()='Tell me more' ]",
+            "megs heading": "//div[ contains( concat(' ', normalize-space(@class), ' '), ' views-row-1 ' ) ]//h2",
+            "megs tell me more button": "//div[ contains( concat(' ', normalize-space(@class), ' '), ' views-row-1 ' ) ]//a[ text()='Tell me more ' ]"
+        },
+        "megs page": {
+            "content rows": "//*[@id='block-views-front-basic-pages-block-1']//div[ contains( concat(' ', normalize-space(@class), ' '), ' views-row ' ) ]",
+            "row 1 heading": "//div[ contains( concat(' ', normalize-space(@class), ' '), ' views-row-1 ' ) ]//h2",
+            "row 1 tell me more button": "//div[ contains( concat(' ', normalize-space(@class), ' '), ' views-row-1 ' ) ]//a[ text()='Tell me more ' ]",
+            "row 2 heading": "//div[ contains( concat(' ', normalize-space(@class), ' '), ' views-row-2 ' ) ]//h2",
+            "row 2 tell me more button": "//div[ contains( concat(' ', normalize-space(@class), ' '), ' views-row-2 ' ) ]//a[ text()='Tell me more ' ]"
+        },
+        "google page": {
+            "search box": "//*[@id='identifierId']"
+        }
+    },
+    "hexco page":{
+        "user name" : "//*[@id='username']",
+        "password" : "//*[@id='password']",
+        "signin" : "//input[@name='commit']"
+    },
+    "PECT" : {
+        "accept cookie": "//button[@id='_evidon-accept-button']",
+        "home page": {
+            "logo" : "//*[@id='block-myclinicaltrial-branding']",
+            "search box" : "//*[@id='edit-search-flexdatalist']",
+            "location box" : "//*[@id='edit-location']",
+            "find a trial" : "(//*[@id='submit-pf-clinical-trial-search'])[2]",
+            "find a trial nav 1" : "//a[contains(text(), 'Find a trial')]",
+            "find a trial nav" : "//li[@class='fat-menu dropdown']",
+            "clinical trails image" : "//img[@alt='About Clinical Trials']",
+            "current participants" : "//a[@href='/for-current-clinical-trial-participants']/div[contains(text(),'For current participants')]",
+            "learn more your rights" : "(//a[@href='/about/protecting-your-safety-and-privacy'])[2]",
+            "clinical trails" : "(//a[@href='/about-clinical-trials'])",
+            "about clinical trails resource" : "(//a[@href='/about-clinical-trials'])[2]",
+            "covid-19 clinical trails" : "//*[contains(text(), 'Find Pfizer clinical trials')]",
+            "our research" : "(//a[@href='/our-research'])[1]",
+            "visit our research page" : "//*[contains(text(),'Visit Our Research page')]",
+            "find trail search flyout" : "//input[@id='edit-search--2-flexdatalist']",
+            "find trail location flyout" : "//input[@id='edit-location--2']",
+            "find trail button flyout" : "(//button[@id='submit-pf-clinical-trial-search'])[1]",
+            "learn more as participant" : "//div[@class='featured-link']//a[@href='/about/protecting-your-safety-and-privacy']",
+            "contact us link" : "//a[@class='contact-us']",
+            "about us link" : "//a[@class='about-pfizer']",
+            "for investigators link" : "//a[@class='for-investigators']",
+            "about clinical trials drop down" : "//a[@href='/about-clinical-trials' and @class='dropdown']",
+            "clinical trials FAQ" : "//a[@href='/about/frequently-asked-questions']",
+            "for participants flyout" : "//span[contains(text(),'For participants')]",
+            "for current clinical trial participant" : "//div[@class='dropdown-toggle']/a[contains(text(),'For current clinical trial participants')]",
+            "for past clinical trial participant" : "//div[@class='dropdown-toggle']/a[contains(text(),'For past clinical trial participants')]"
+
+        },
+        "about clinical trail page" : {
+            "banner" : "//*[@id='page-color-purple']//p",
+            "about clinical trail" : "(//a[@href='/about/how-clinical-trials-work'])[2]",
+            "FAQs" : "//h2[contains(text(),'Frequently asked questions')]",
+            "see more" : "//button[@class='btn-view btn-load-more']",
+            "learn more" : "//a[@href='https://www.pfizerclinicaltrials.com/about/frequently-asked-questions']"
+
+        },
+        "frequently asked questions page" : {
+            "clinical trial banner" : "//*[@id='block-standardherosection']//h1",
+            "faq banner" : "//*[@id='block-standardherosection']//h5",
+            "expand all" : "//span[contains(text(),'Expand all')]",
+            "collapse all" : "//span[contains(text(),'Collapse all')]",
+            "search faq text box" : "//input[@placeholder='Search FAQs']",
+            "back to top" : "//span[contains(text(),'Back to top')]",
+            "page like button" : "(//td[contains(text(),'Is this page helpful?')]/..//label)[1]",
+            "page dislike button" : "(//td[contains(text(),'Is this page helpful?')]/..//label)[2]",
+            "learn more buttons" : "//a[contains(text(),'Learn More')]",
+            "is this helpful buttons" : "//td[contains(text(),'Is this helpful')]"
+        },
+        "find a trail page" : {
+            "all trail" : "//span[@class='filter-results-btn recruiting-all active']",
+            "recruiting trail" : "//span[@class='filter-results-btn recruiting']"
+        },
+        "find a trail filter page" : {
+            "search box" : "//*[@id='edit-search-flexdatalist']",
+            "location box" : "//*[@id='edit-location']",
+            "find button" : "(//*[@id='submit-pf-clinical-trial-search'])[2]",
+            "first search result" : "(//div[@class='view-content search-cards']//div[@class='views-field views-field-field-clinical-study-brief-title-1']/a)[1]",
+            "search result count text" : "//div[@class='view-filters form-group']//div[@class='items-count-wrapper']"
+
+        },
+        "our research page" : {
+            "vaccines" : "//span//a[@href='/our-research/vaccines']",
+            "rare diseases" : "//span//a[@href='/our-research/rare_diseases']",
+            "inflammation & immunology " : "//span//a[@href='/our-research/inflammation_immunology']",
+            "internal medicine" : "//span//a[@href='/our-research/internal_medicine']",
+            "oncology" : "//span//a[@href='/our-research/oncology']",
+            "text banner" : "//*[@id='block-standardherosection']//h5",
+            "video" : "//a[@class='start-video']"
+        },
+        "vaccine clinical trials page" :{
+            "covid 19" : "//*[contains(text(), 'Coronavirus (COVID-19)')]",
+            "respiratory" : "//*[contains(text(), 'Respiratory ')]",
+            "meningococcal" : "//*[contains(text(), 'Meningococcal')]",
+            "pneumococcal" : "//*[contains(text(), 'Pneumococcal')]"
+        },
+        "safety and privacy page" : {
+            "clinical trial safeguard video" : "//div[@id='thumbnail_container']"
+        },
+        "trials search result page": {
+            "search result" : "(//*[@class='items-count-wrapper'])[2]"
+        },
+        "internal medicine page" : {
+            "internal medicine header" : "//section[@id='block-standardherosection']//h1",
+            "internal medicine banner" : "//section[@id='block-standardherosection']//h5",
+            "like page button" : "(//td[contains(text(),'Is this page helpful?')]/..//label)[1]",
+            "dislike page button" : "(//td[contains(text(),'Is this page helpful?')]/..//label)[2]",
+            "learn more on pfizer" : "//a[contains(text(),'Learn more on Pfizer.com')]",
+            "share email icon" : "//span[@id='share-email-icon']",
+            "print icon" : "//span[@class='print']"
+        },
+        "current clinical trail participants" : {
+            "current participant header" : "//section[@id='block-standardherosection']//h1",
+            "current participant banner" : "//section[@id='block-standardherosection']//h5",
+            "download checklist button" : "//a[contains(text(),'Download Checklist')]"
+        }
+    },
+    "google" : {
+        "search box" : "//input[@name='q']",
+        "search button" : "(//input[@value='Google Search'])[2]"
+
+}
+}

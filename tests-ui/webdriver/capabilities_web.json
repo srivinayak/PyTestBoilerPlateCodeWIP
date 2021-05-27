@@ -1,0 +1,29 @@
+{
+    "timeouts": {
+        "implicit": 10000,
+        "pageLoad": 300000,
+        "script": 300000
+    },
+
+    "capabilities": {
+        "os": "Windows",
+        "os_version": 10,
+        "browserstack.idleTimeout": 30,
+        "acceptInsecureCerts": true,
+        "networkConnectionEnabled": true,
+        "browserConnectionEnabled": true,
+        "TIMEOUT": "timeouts",
+        "browser": "Chrome",
+        "browser_version": "88",
+        "browserstack.seleniumLogs": true,
+        "browserstack.console": "errors",
+        "name": "PECT-TestAutomation Remote WebDriver Test",
+        "build": "PECT-TestAutomation-BSA-Build-001",
+        "resolution": "1920x1080",
+        "browserstack.debug": false,
+        "browserstack.local": false,
+        "browserstack.timezone": "UTC",
+        "realMobile": false,
+        "deviceOrientation": "landscape"
+    }
+}

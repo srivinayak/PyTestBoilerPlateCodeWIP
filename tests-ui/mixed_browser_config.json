@@ -1,0 +1,63 @@
+[
+    {
+        "local" : "true",
+        "browser": "Chrome",
+        "driver_path": "./selenium_drivers/chrome/89.0.4389.23/chromedriver_win32/chromedriver.exe",
+        "resolution": "1900x1100"
+    },
+    {
+        "local": "true",
+        "browser": "Firefox",
+        "driver_path": "./selenium_drivers/firefox",
+        "resolution": "1900x1100"
+    },
+
+    {
+        "os_version" : "11",
+        "device" : "iPhone 8 Plus",
+        "real_mobile" : "true",
+        "browserstack.local" : "false",
+        "deviceOrientation" : "landscape"
+    },
+    {
+         "os_version": "8.1",
+         "resolution": "1920x1080",
+         "browser": "Chrome",
+         "browser_version": "latest",
+         "os": "Windows"
+    },
+        {
+        "os_version" : "5.0",
+        "device" : "Google Nexus 6",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+    {
+        "os_version" : "9.0",
+        "device" : "Motorola Moto G7 Play",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+    {
+        "os_version" : "9.0",
+        "device" : "OnePlus 7",
+        "real_mobile" : "true",
+        "browserstack.local" : "false"
+    },
+        {
+        "os" : "OS X",
+        "os_version" : "Big Sur",
+        "browser" : "Firefox",
+        "browser_version" : "latest",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.10.0"
+    },
+    {
+        "os" : "OS X",
+        "os_version" : "Catalina",
+        "browser" : "Chrome",
+        "browser_version" : "latest",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.14.0"
+    }
+]

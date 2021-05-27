@@ -1,0 +1,32 @@
+[
+    {
+        "local" : "true",
+        "browser": "Chrome",
+        "driver_path": "./selenium_drivers/chrome/89.0.4389.23/chromedriver_win32/chromedriver.exe",
+        "resolution": "1900x1100"
+    },
+    {
+        "local": "true",
+        "browser": "Firefox",
+        "driver_path": "./selenium_drivers/firefox",
+        "resolution": "1900x1100"
+    },
+    {
+        "local": "true",
+        "browser": "IE",
+        "driver_path": "./selenium_drivers/IE",
+        "resolution": "1900x1100"
+    },
+    {
+        "local": "true",
+        "browser": "Safari",
+        "driver_path": "./selenium_drivers/safari",
+        "resolution": "1900x1100"
+    },
+    {
+        "local": "true",
+        "browser": "Edge",
+        "driver_path": "./selenium_drivers/edge",
+        "resolution": "1900x1100"
+    }
+]

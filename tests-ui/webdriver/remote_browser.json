@@ -1,0 +1,22 @@
+{
+    "timeouts" : {
+        "implicit": 10000,
+        "pageLoad": 300000,
+        "script": 300000
+    },
+
+    "desired_capabilities" : {
+        "os": "Windows",
+        "os_version": "10",
+        "browserstack.idleTimeout": 30,
+        "acceptInsecureCerts": "true",
+        "networkConnectionEnabled": "true",
+        "TIMEOUT": "timeouts",
+        "browser": "Chrome",
+        "browser_version": "80",
+        "browserstack.seleniumLogs": "true",
+        "browserstack.console": "errors",
+        "name": "Remote PECT-TestAutomation WebDriver Test",
+        "build": "PECT-TA-BSA-Build-001"
+    }
+}

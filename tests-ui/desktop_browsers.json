@@ -1,0 +1,114 @@
+[
+
+    {
+         "os_version": "8.1",
+         "resolution": "1920x1080",
+         "browser": "Chrome",
+         "browser_version": "latest",
+         "os": "Windows"
+    },
+    {
+        "os" : "Windows",
+        "os_version" : "10",
+        "browser" : "IE",
+        "browser_version" : "11.0",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.5.2"
+    },
+{
+        "os" : "Windows",
+        "os_version" : "10",
+        "browser" : "Edge",
+        "browser_version" : "latest",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.5.2"
+    },
+    {
+        "os" : "Windows",
+        "os_version" : "10",
+        "browser" : "Chrome",
+        "browser_version" : "latest",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.14.0"
+    },
+    {
+        "os" : "Windows",
+        "os_version" : "10",
+        "browser" : "Firefox",
+        "browser_version" : "latest",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.10.0"
+    },
+    {
+        "os" : "Windows",
+        "os_version" : "8.1",
+        "browser" : "Chrome",
+        "browser_version" : "latest",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.14.0"
+    },
+    {
+        "os" : "Windows",
+        "os_version" : "8",
+        "browser" : "Firefox",
+        "browser_version" : "latest",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.10.0"
+    },
+    {
+        "os" : "Windows",
+        "os_version" : "7",
+        "browser" : "Chrome",
+        "browser_version" : "latest",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.14.0"
+    },
+    {
+        "os" : "Windows",
+        "os_version" : "XP",
+        "browser" : "IE",
+        "browser_version" : "7.0",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.5.2"
+    },
+    {
+        "os" : "OS X",
+        "os_version" : "Big Sur",
+        "browser" : "Safari",
+        "browser_version" : "14.0",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.14.0"
+    },
+    {
+        "os" : "OS X",
+        "os_version" : "Big Sur",
+        "browser" : "Firefox",
+        "browser_version" : "latest",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.10.0"
+    },
+    {
+        "os" : "OS X",
+        "os_version" : "Catalina",
+        "browser" : "Chrome",
+        "browser_version" : "latest",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.14.0"
+    },
+    {
+        "os" : "OS X",
+        "os_version" : "Mojave",
+        "browser" : "Safari",
+        "browser_version" : "12.0",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.14.0"
+    },
+    {
+        "os" : "OS X",
+        "os_version" : "Mojave",
+        "browser" : "Opera",
+        "browser_version" : "12.15",
+        "browserstack.local" : "false",
+        "browserstack.selenium_version" : "3.5.2"
+    }
+]
